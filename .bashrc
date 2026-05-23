@@ -11,7 +11,7 @@ export OSH='/home/mukundan/.oh-my-bash'
 # it'll load a random theme each time that oh-my-bash is loaded.
 #
 # favs: cupcake, ht, agnoster, lambda, nekolight, robbyrussell, 
-OSH_THEME="ht"
+OSH_THEME="nekolight"
 
 # If you set OSH_THEME to "random", you can ignore themes you don't like.
 # OMB_THEME_RANDOM_IGNORED=("powerbash10k" "wanelo")
@@ -192,3 +192,10 @@ export PATH=/home/mukundan/Documents/learning/bash/mycommands:$PATH
 source /home/mukundan/Documents/learning/bash/mycommands/mkcd
 source /home/mukundan/Documents/learning/bash/mycommands/up
 source /home/mukundan/Documents/learning/bash/mycommands/repo
+
+# ---------- zoxide ---------
+eval "$(zoxide init bash)"
+alias cd="z"
+
+# ---------- disable completions -------- 
+shopt -u progcomp
