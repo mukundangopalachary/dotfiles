@@ -1,0 +1,322 @@
+# Default Starship configuration
+format = """
+$directory\
+$git_branch\
+$git_status\
+$status\
+$jobs\
+$package\
+$container\
+$fill\
+$c\
+$cpp\
+$cmake\
+$cobol\
+$dart\
+$deno\
+$dotnet\
+$elixir\
+$elm\
+$erlang\
+$fennel\
+$golang\
+$haskell\
+$haxe\
+$helm\
+$java\
+$julia\
+$kotlin\
+$gradle\
+$lua\
+$nim\
+$nodejs\
+$ocaml\
+$opa\
+$perl\
+$php\
+$pulumi\
+$purescript\
+$python\
+$quarto\
+$raku\
+$rlang\
+$red\
+$ruby\
+$rust\
+$scala\
+$solidity\
+$swift\
+$terraform\
+$typst\
+$vlang\
+$zig\
+$aws\
+$docker_context\
+$line_break\
+$character """
+
+[c]
+symbol = "C "
+format = "[$symbol($version )]($style)"
+style = "bold blue"
+
+[cpp]
+disabled = false
+format = '[$symbol $version]($style)'
+
+[cmake]
+symbol = "cmake "
+format = "[$symbol($version )]($style)"
+style = "bold blue"
+
+[cobol]
+symbol = "cobol "
+format = "[$symbol($version )]($style)"
+style = "bold blue"
+
+[dart]
+symbol = "dart "
+format = "[$symbol($version )]($style)"
+style = "bold blue"
+
+[deno]
+symbol = "deno "
+format = "[$symbol($version )]($style)"
+style = "bold green"
+
+[dotnet]
+symbol = ".NET "
+format = "[$symbol($version )]($style)"
+style = "bold blue"
+
+[elixir]
+symbol = "ex "
+format = "[$symbol($version )]($style)"
+style = "bold magenta"
+
+[elm]
+symbol = "elm "
+format = "[$symbol($version )]($style)"
+style = "bold blue"
+
+[erlang]
+symbol = "erl "
+format = "[$symbol($version )]($style)"
+style = "bold red"
+
+[fennel]
+symbol = "fnl "
+format = "[$symbol($version )]($style)"
+style = "bold green"
+
+[golang]
+symbol = "go "
+format = "[$symbol($version )]($style)"
+style = "bold cyan"
+
+[haskell]
+symbol = "hs "
+format = "[$symbol($version )]($style)"
+style = "bold purple"
+
+[haxe]
+symbol = "haxe "
+format = "[$symbol($version )]($style)"
+style = "bold orange"
+
+[helm]
+symbol = "helm "
+format = "[$symbol($version )]($style)"
+style = "bold blue"
+
+[java]
+symbol = "java "
+format = "[$symbol($version )]($style)"
+style = "bold red"
+
+[julia]
+symbol = "jl "
+format = "[$symbol($version )]($style)"
+style = "bold purple"
+
+[kotlin]
+symbol = "kt "
+format = "[$symbol($version )]($style)"
+style = "bold purple"
+
+[gradle]
+symbol = "gradle "
+format = "[$symbol($version )]($style)"
+style = "bold cyan"
+
+[lua]
+symbol = "lua "
+format = "[$symbol($version )]($style)"
+style = "bold blue"
+
+[nim]
+symbol = "nim "
+format = "[$symbol($version )]($style)"
+style = "bold yellow"
+
+[nodejs]
+symbol = "node "
+format = "[$symbol($version )]($style)"
+style = "bold green"
+
+[ocaml]
+symbol = "ocaml "
+format = "[$symbol($version )]($style)"
+style = "bold orange"
+
+[opa]
+symbol = "opa "
+format = "[$symbol($version )]($style)"
+style = "bold blue"
+
+[perl]
+symbol = "pl "
+format = "[$symbol($version )]($style)"
+style = "bold blue"
+
+[php]
+symbol = "php "
+format = "[$symbol($version )]($style)"
+style = "bold purple"
+
+[pulumi]
+symbol = "pulumi "
+format = "[$symbol($version )]($style)"
+style = "bold blue"
+
+[purescript]
+symbol = "purs "
+format = "[$symbol($version )]($style)"
+style = "bold blue"
+
+[python]
+symbol = "py "
+format = "[$symbol($version )(\\($virtualenv\\) )]($style)"
+style = "bold yellow"
+detect_extensions = ["py"]
+detect_files = [
+  ".python-version",
+  "Pipfile",
+  "pyproject.toml",
+  "requirements.txt",
+  "setup.py",
+  "tox.ini",
+]
+detect_folders = []
+
+[quarto]
+symbol = "qmd "
+format = "[$symbol($version )]($style)"
+style = "bold blue"
+
+[raku]
+symbol = "raku "
+format = "[$symbol($version )]($style)"
+style = "bold blue"
+
+[rlang]
+symbol = "R "
+format = "[$symbol($version )]($style)"
+style = "bold blue"
+
+[red]
+symbol = "red "
+format = "[$symbol($version )]($style)"
+style = "bold red"
+
+[ruby]
+symbol = "rb "
+format = "[$symbol($version )]($style)"
+style = "bold red"
+
+[rust]
+symbol = "rs "
+format = "[$symbol($version )]($style)"
+style = "bold orange"
+
+[scala]
+symbol = "scala "
+format = "[$symbol($version )]($style)"
+style = "bold red"
+
+[solidity]
+symbol = "sol "
+format = "[$symbol($version )]($style)"
+style = "bold blue"
+
+[swift]
+symbol = "swift "
+format = "[$symbol($version )]($style)"
+style = "bold orange"
+
+[terraform]
+symbol = "tf "
+format = "[$symbol($version )]($style)"
+style = "bold purple"
+
+[typst]
+symbol = "typst "
+format = "[$symbol($version )]($style)"
+style = "bold blue"
+
+[vlang]
+symbol = "vlang "
+format = "[$symbol($version )]($style)"
+style = "bold blue"
+
+[zig]
+symbol = "zig "
+format = "[$symbol($version )]($style)"
+style = "bold orange"
+
+[aws]
+symbol = "aws "
+format = "[$symbol($profile )]($style)"
+style = "bold orange"
+
+[fill]
+symbol = " "
+
+[docker_context]
+symbol = "docker "
+format = "[$symbol($context )]($style)"
+style = "bold blue"
+
+[status]
+format = "[$status]($style) "
+style = "bold red"
+disabled = false
+
+[jobs]
+symbol = "jobs "
+format = "[$symbol$number]($style) "
+style = "bold blue"
+
+[package]
+symbol = "pkg "
+format = "[$symbol$version]($style) "
+style = "bold yellow"
+
+[container]
+symbol = "container "
+format = "[$symbol$name]($style) "
+style = "bold red"
+
+[directory]
+format = "[$path]($style)[$read_only]($read_only_style) "
+style = "bold cyan"
+read_only = " [RO]"
+read_only_style = "red"
+truncation_length = 2
+truncation_symbol = ".../"
+truncate_to_repo = false
+
+[localip]
+ssh_only = false
+format = '@[$localipv4](bold red) '
+disabled = false
