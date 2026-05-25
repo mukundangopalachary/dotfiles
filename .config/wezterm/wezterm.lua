@@ -1,6 +1,6 @@
 local wezterm = require("wezterm")
 
-local bg_image = wezterm.config_dir .. "/wallpaper/bg-blurred-lighter.png"
+local bg_image = wezterm.config_dir .. "/wallpaper/deerInFront.jpg"
 
 return {
   --------------------------------------------------
