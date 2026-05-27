@@ -42,9 +42,9 @@ export TERM=xterm-256color
 
 # personal commands and PATH
 export PATH=/home/mukundan/Documents/learning/bash/mycommands:$PATH
-source /home/mukundan/Documents/learning/bash/mycommands/mkcd
-source /home/mukundan/Documents/learning/bash/mycommands/up
-source /home/mukundan/Documents/learning/bash/mycommands/repo
+source /home/mukundan/Documents/learning/bash/mycommands/mycommands/mkcd
+source /home/mukundan/Documents/learning/bash/mycommands/mycommands/up
+source /home/mukundan/Documents/learning/bash/mycommands/mycommands/repo
 
 # bun
 export BUN_INSTALL="$HOME/.bun"
